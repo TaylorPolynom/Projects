@@ -1,0 +1,82 @@
+body::after{  
+ content: '';
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+ background-image: linear-gradient( 115deg, rgba(141, 58, 158, 0.8), rgba(206, 136, 191, 0.7) ), url(me.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+header h1,p{
+    text-align: center;
+    color:white;
+}
+
+header h1{
+    margin-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header p{
+    margin-top: 0;
+    font-family: monospace;
+
+}
+
+.container{
+    max-width: 80%;
+    min-width: 350px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(200, 158, 58, 0.4);
+}
+.form-element label{
+    color:white;
+}
+
+.form-element input{
+    display: block;
+    width: 99%;
+    
+
+
+}
+
+.selectrole{
+  width:100%;
+
+}
+.form-element-checkbox label{
+    display: block;
+    color:white;
+}
+span{
+    font-family:inherit;
+    font-size:12px;
+}
+.form-element-checkbox p{
+    margin-bottom: 0;
+}
+.form-element-checkbox{
+    margin-top:0;
+}
+.form-element-text-Area textarea{
+    display: inline-block;
+    width: 99% !important;
+    font-size:1rem;
+    align-self: center;
+}
+.form-element button{
+  background-color: red;
+  width: 100% !important;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}
